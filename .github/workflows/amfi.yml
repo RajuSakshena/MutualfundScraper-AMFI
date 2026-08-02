@@ -1,24 +1,21 @@
-name: AMFI Pipeline
+name: AMFI & SIF Pipeline
 
 on:
-
   workflow_dispatch:
 
   schedule:
+    # Daily 9:30 AM IST (04:00 UTC)
     - cron: "0 4 * * *"
 
 jobs:
-
   scrape:
-
     runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
-
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -26,29 +23,29 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install Playwright Browser
+      - name: Install Playwright
         run: |
           playwright install chromium
 
-      - name: Run Pipeline
+      - name: Run Scrapers
         run: |
           python main.py
 
-      - name: Commit JSON
-
+      - name: Commit & Push JSON
         run: |
-
           git config --global user.name "github-actions"
-
           git config --global user.email "actions@github.com"
 
           git add output/
 
-          git commit -m "Update AMFI JSON" || echo "No changes"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+          else
+            git commit -m "Auto Update AMFI & SIF JSON"
+            git push
+          fi
