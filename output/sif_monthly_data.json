@@ -1,8 +1,8 @@
 {
     "metadata": {
         "source": "SIF",
-        "file": "sif_amsep2026repo.xls",
-        "generated_at": "2026-11-10T11:53:31.412000",
+        "file": "sif_amoct2026repo.xls",
+        "generated_at": "2026-11-11T11:29:45.005550",
         "sheet_count": 2,
         "sheet_names": [
             "AMFI SIF MONTHLY",
@@ -12,7 +12,7 @@
     "sheets": {
         "AMFI SIF MONTHLY": [
             [
-                "SIF Monthly Report for September 2026 ",
+                "SIF Monthly Report for October- 2026 ",
                 "",
                 "",
                 "",
@@ -27,15 +27,15 @@
             [
                 "Sr ",
                 "Scheme Name ",
-                "No. of Schemes as on September 30, 2026",
-                "No. of Folios as on September 30, 2026",
-                "Funds Mobilized for the month of September 2026 (INR in crore)",
-                "Repurchase/Redemption for the month of September 2026 (INR in crore)",
-                "Net Inflow (+ve)/Outflow (-ve) for the month of September 2026 (INR in crore)",
-                "Net Assets Under Management as on September 30, 2026 (INR in crore)",
-                "Average Net Assets Under Management for the month September 2026 (INR in crore)",
-                "No. of segregated portfolios created as on September 30, 2026",
-                "Net Assets Under Management in segregated portfolio as on September 30, 2026 (INR in crore)"
+                "No. of Schemes as on October 31, 2026",
+                "No. of Folios as on October 31, 2026",
+                "Funds Mobilized for the month of October 2026 (INR in crore)",
+                "Repurchase/Redemption for the month of October 2026 (INR in crore)",
+                "Net Inflow (+ve)/Outflow (-ve) for the month of October 2026 (INR in crore)",
+                "Net Assets Under Management as on October 31, 2026 (INR in crore)",
+                "Average Net Assets Under Management for the month October 2026 (INR in crore)",
+                "No. of segregated portfolios created as on October 31, 2026",
+                "Net Assets Under Management in segregated portfolio as on October 31, 2026 (INR in crore)"
             ],
             [
                 "A",
@@ -53,13 +53,13 @@
             [
                 "i",
                 "Equity Long-Short Fund",
-                12,
-                29856,
-                976.00465786,
-                80.79054387,
-                895.21411399,
-                4216.05928379,
-                3707.62034171,
+                13,
+                34408,
+                668.85530441,
+                65.85597995,
+                602.99932446,
+                4755.82294113,
+                4446.26090041,
                 0,
                 0
             ],
@@ -67,12 +67,12 @@
                 "ii",
                 "Equity Ex-Top 100 Long-Short Fund",
                 7,
-                53942,
-                1653.6863989,
-                161.27023888,
-                1492.41616002,
-                7595.34847229,
-                7094.2950564,
+                59199,
+                779.63313596,
+                67.04521309,
+                712.58792287,
+                7911.39612924,
+                7869.23583226,
                 0,
                 0
             ],
@@ -80,25 +80,25 @@
                 "iii",
                 "Sector Rotation Long-Short Fund",
                 1,
-                988,
-                19.0210697,
-                2.6371631,
-                16.3839066,
-                62.4003908,
-                54.3862477,
+                1204,
+                10.3643344,
+                0.989852300000003,
+                9.3744821,
+                72.3462204,
+                67.2580249,
                 0,
                 0
             ],
             [
                 "",
                 "Sub Total - I (i+ii+iii)",
-                20,
-                84786,
-                2648.71212646,
-                244.69794585,
-                2404.01418061,
-                11873.80814688,
-                10856.301645810001,
+                21,
+                94811,
+                1458.85277477,
+                133.89104534,
+                1324.96172943,
+                12739.56529077,
+                12382.754757570001,
                 0,
                 0
             ],
@@ -170,13 +170,13 @@
             [
                 "I",
                 "Active Asset Allocator Long-Short Fund",
-                3,
-                13519,
-                782.50206723,
-                94.46130328,
-                688.04076395,
-                2456.23022972,
-                2141.51671152,
+                5,
+                17172,
+                966.13166527,
+                50.77000473,
+                915.36166054,
+                3251.05172074,
+                2866.00440805,
                 0,
                 0
             ],
@@ -184,45 +184,45 @@
                 "II",
                 "Hybrid Long-Short Fund",
                 11,
-                58178,
-                4897.72704211,
-                411.60665338,
-                4486.12038873,
-                23956.89761276,
-                22022.92522371,
+                64559,
+                3271.59403559,
+                361.50429311,
+                2910.08974248,
+                26678.89895517,
+                25509.56018657,
                 0,
                 0
             ],
             [
                 "",
                 "Sub Total - III (i+ii+iii+iv+v+vi)",
-                14,
-                71697,
-                5680.22910934,
-                506.06795666,
-                5174.16115268,
-                26413.12784248,
-                24164.441935230003,
+                16,
+                81731,
+                4237.72570086,
+                412.27429784,
+                3825.45140302,
+                29929.95067591,
+                28375.564594620002,
                 0,
                 0
             ],
             [
                 "",
                 "Grand Total",
-                34,
-                156483,
-                8328.9412358,
-                750.7659025099999,
-                7578.17533329,
-                38286.93598936,
-                35020.743581040006,
+                37,
+                176542,
+                5696.57847563,
+                546.16534318,
+                5150.4131324499995,
+                42669.51596668,
+                40758.31935219,
                 0,
                 0
             ]
         ],
         "NSR": [
             [
-                "NEW SCHEMES REPORT DURING September-2026 (ALLOTMENT COMPLETED)",
+                "NEW SCHEMES REPORT DURING October-2026 (ALLOTMENT COMPLETED)",
                 "",
                 "",
                 ""
@@ -241,15 +241,39 @@
             ],
             [
                 "Equity Long-Short Fund",
-                "Altiva Equity Long-Short Fund",
+                "MSIF Equity Long-Short Fund",
                 1,
-                377
+                161.37
+            ],
+            [
+                "Sub total Equity Oriented Investment Strategies",
+                "",
+                1,
+                161
+            ],
+            [
+                "Hybrid Investment Strategies",
+                "",
+                "",
+                ""
+            ],
+            [
+                "Active Asset Allocator Long-Short Fund",
+                "Summit Active Asset Allocator Long-Short Fund, Titanium Active Asset Allocator Long-Short Fund",
+                2,
+                517.86
+            ],
+            [
+                "Sub total Hybrid Investment Strategies",
+                "",
+                2,
+                518
             ],
             [
                 "Grand Total",
                 "",
-                1,
-                377
+                3,
+                679
             ]
         ]
     }
